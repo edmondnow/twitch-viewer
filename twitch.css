@@ -1,0 +1,245 @@
+html {
+	background: linear-gradient(
+		rgba(250, 251, 0, 0.8), rgba(247, 157, 0, 0.7));
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+body {
+	padding: 2.5% 5%;
+}
+
+.holder {
+	width: 80%;
+	height: auto;
+	padding: 2.5% 5%;
+	margin: 0 auto;
+	border: 1px solid black;
+	box-shadow: 1px 1px black;
+	background-color: rgb(100, 65, 165);
+	box-shadow: 1px 2px 5px black;
+
+}
+
+
+.holder-streams {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	width: 80%;
+	height: auto;
+	padding: 1% 1%;
+	margin: 20px auto;
+	border: 1px solid black;
+	box-shadow: 1px 1px black;
+	background-color: rgba(100, 65, 165,1);
+	box-shadow: 1px 2px 5px black;
+
+}
+
+img[src="twitch.png"]{
+	width: 20%;
+	outline
+
+
+}
+
+button {
+	float: right;
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin: 5px;
+	color: black;
+	text-transform: uppercase;
+	background-color: white;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;
+	box-shadow: 1px 1px 3px black;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+
+.thumbnail{
+	width: 18%;
+	min-height: 
+	margin: 1%;
+	outline: 4px solid white;
+	display: inline-block;
+}
+.inner {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	width: 75%;
+	min-height: 152px;
+	padding: 2%;
+	float: right;
+	background: white url("gaming.png") no-repeat local center;
+	background-image: url("gaming.png");
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: top;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow:         inset 0 0 10px #000000;
+}
+
+.streamer-name{
+	color: white;
+	font-family: 'Exo', sans-serif;
+	text-shadow: 4px 4px black;
+	-webkit-text-stroke: 1px black;
+	margin: 0;
+
+}
+
+.status-online{
+    width: 20px;
+    height: 20px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgb(30, 240, 0), rgb(30, 240, 0));
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(30, 240, 0), rgb(30, 240, 0));
+    background-image: radial-gradient(45px 45px 45deg, circle cover, rgb(30, 240, 0));
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin: 0px 10px;
+}
+
+.status-offline{
+    width: 20px;
+    height: 20px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgb(240, 0, 0), rgb(240, 0, 0));
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(240, 0, 0), rgb(240, 0, 0));
+    background-image: radial-gradient(45px 45px 45deg, circle cover, rgb(240, 0, 0));
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin: 0px 10px;
+}
+
+h3.online{
+	float: left;
+
+}
+
+h3 {
+	color: white;
+	font-family: 'Exo', sans-serif;
+	-webkit-text-stroke: 1px black;
+}
+
+h3.game {
+	float: right;
+	margin: 0;
+	vertical-align: bottom;
+	font-size: 1.5em;
+	position: relative;
+	top: 40px;
+}
+
+.holder-streams:hover{
+	width: 85%;
+}
+
+
+
+@media screen and (max-width: 1030px){
+
+	.inner{
+		width: 75%;
+		min-height: 50px;
+		background-size: 100%;
+	}
+
+	.holder{
+
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+
+	.inner{
+		width: 75%;
+		min-height: 50px;
+		background-size: 100%;
+	}
+
+	.holder{
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 1030px){
+
+	.inner{
+		width: 75%;
+		min-height: 50px;
+		background-size: 100%;
+	}
+
+	.holder{
+
+	}
+
+}
+
+
+@media screen and (max-width: 380px){
+
+	.inner{
+		width: 78%;
+		height: 10px !important;
+		background-size: 100%;
+		padding: 0 ;
+	}
+
+
+
+	button {
+	width: 40px;
+	height: 20px;
+	font-size: 6px;
+	box-shadow: 1px 1px 3px black;
+	margin-top: 0px;
+}
+
+.streamer-name{
+	font-size: 12px;
+}
+
+.status-online{
+	width: 5px;
+	height: 5px;
+}
+.status-offline{
+	width: 5px;
+	height: 5px;
+}
+
+.online{
+font-size: 12px;
+}
+
+.offline{
+font-size: 12px;
+}
+
+.game {
+	font-size: 12px !important;
+}
+
+}
